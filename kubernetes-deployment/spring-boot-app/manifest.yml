@@ -14,7 +14,7 @@ spec:
         type: back-end
     spec:
       containers:
-        - name: spring-boot-app
+        - name: spring-boot-application
           image: "japerezlores/backend-demo:latest"
           imagePullPolicy: Always
   replicas: 1
